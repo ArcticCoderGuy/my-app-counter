@@ -20,3 +20,16 @@ VITE v7.0.0  ready in 729 ms
 ➜  Network: use --host to expose
 
 Open your browser and go to http://localhost:5173/ to see the app running.
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Installation
+
+2. **Clone the repository to GitHub**
+   ```bash
+   git clone https://github.com/ArcticCoderGuy/my-app-counter.git
+   cd my-app-counter
+
+   
