@@ -120,3 +120,37 @@ src/
 
     └── Counter.jsx     // This counter uses useState, but the DOM tree in VS Code shows the components in reverse order
 
+
+# 🧮 React Counter App with useState Hook & Custom Background
+
+This project is a simple yet educational React application that demonstrates:
+
+- 🧠 The use of `useState` Hook for state management
+- 🧩 Modular component structure with `App.jsx` and `Counter.jsx`
+- 🌄 Custom background image integration using inline styles
+- ✅ React 17+ conventions with `createRoot` from `react-dom/client`
+
+---
+
+## 📁 Project Structure
+
+my-app-counter/
+├── public/
+│ └── Taustakuva.png # Background image
+├── src/
+│ ├── Components/
+│ │ └── Counter.jsx # Functional component with state logic
+│ ├── App.jsx # Main app component
+│ ├── main.jsx # React entry point
+│ └── index.css # Optional styles
+├── package.json
+└── README.md
+
+
+---
+
+## 🔧 How to Run
+
+```bash
+npm install     # Install dependencies
+npm run dev     # Start the development server
