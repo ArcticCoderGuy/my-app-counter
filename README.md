@@ -154,3 +154,8 @@ my-app-counter/
 ```bash
 npm install     # Install dependencies
 npm run dev     # Start the development server
+
+
+contact me: www.foxinthecode.fi
+
+
