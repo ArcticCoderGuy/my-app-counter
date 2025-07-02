@@ -33,3 +33,90 @@ Open your browser and go to http://localhost:5173/ to see the app running.
    cd my-app-counter
 
    
+  3.  Hierarchical Pseudocode (FoxBox Framework style)
+This pseudocode describes the current structure of the project built using the React module and my custom FoxBox Framework approach.
+
+  3.1 main.jsx
+🔹 Application entry point
+🔸 Imports React and ReactDOM
+🔸 Imports the main App component
+🔸 Renders the App component into the HTML <div id="root"> element
+
+BEGIN main.jsx
+
+  IMPORT React & ReactDOM
+
+  IMPORT App FROM './App.jsx'
+
+  RENDER <App /> INTO HTML element with id="root"
+
+END
+
+3.2. App.jsx
+🔹 Main application component
+🔸 Displays a heading: "Counter App"
+🔸 Imports and renders the child Counter component
+
+BEGIN App.jsx
+
+  IMPORT Counter FROM './Components/Counter.jsx'
+
+  FUNCTION App
+
+    RETURN:
+      DIV {
+        HEADER: "Counter App"
+        COMPONENT: <Counter />
+      }
+
+  END FUNCTION
+
+  EXPORT App AS DEFAULT
+
+END
+
+3.3 Counter.jsx
+🔹 Child component for handling counter logic
+🔸 Imports the useState hook from React
+🔸 Initializes state variable count = 0
+🔸 Adds two buttons:
+
+Decrease (sets count - 1)
+
+Increase (sets count + 1)
+🔸 Displays the current counter value
+
+BEGIN Counter.jsx
+
+  IMPORT useState FROM 'react'
+
+  FUNCTION Counter
+
+    INITIALIZE count = 0 USING useState
+    FUNCTION setCount UPDATES count
+
+    RETURN:
+      DIV {
+        DISPLAY: "Count: <count>"
+        BUTTON: "Decrease" ON CLICK => setCount(count - 1)
+        BUTTON: "Increase" ON CLICK => setCount(count + 1)
+      }
+
+  END FUNCTION
+
+  EXPORT Counter AS DEFAULT
+
+END
+
+ 3.4 DOM
+
+src/ 
+
+├── main.jsx            // Initialize the app 
+
+├── App.jsx             // app maincomponent 
+
+└── Components/ 
+
+    └── Counter.jsx     // This counter uses useState, but the DOM tree in VS Code shows the components in reverse order
+
