@@ -159,3 +159,17 @@ npm run dev     # Start the development server
 contact me: www.foxinthecode.fi
 
 
+### DMAIC – MUI Counter
+
+**Define:** Tyylitetään Counter-sovellus Material UI:lla (Container, Typography, Box, Stack, Button) diasetin esimerkin mukaisesti.
+
+**Measure:** Ennen: 0 kpl MUI-komponentteja. Jälkeen: UI rakennettu täysin MUI:lla; 3 nappia, keskitys kunnossa.
+
+**Analyze:** Aiempi plain-HTML näytti hajanaiselta. MUI tuo yhtenäisen Material Designin, responsiivisuuden ja a11y-periaatteet.
+
+**Improve:** 
+- Asennettu `@mui/material @emotion/react @emotion/styled`.
+- `App.jsx`: Container + Typography, keskitys `sx`-propilla.
+- `Counter.jsx`: Box + Typography + Stack + Button (värit: error, primary, secondary).
+
+**Control:** Versiohallinta (main-branch), README-dokumentointi, koodistandardi (PascalCase-komponentit, kansio `Components/`).

@@ -1,0 +1,12 @@
+Samba-musiikki ladataan ilmaisesta musiikkipalvelusta.
+Käytämme royalty-free samba-musiikkia joka on vapaasti käytettävissä.
+
+Voit lisätä oman samba-tiedostosi:
+1. Lisää .mp3 tiedosto public-kansioon nimellä "samba.mp3"
+2. Tai käytä mitä tahansa ilmaista streaming-palvelua
+
+Suositeltuja ilmaisia lähteitä:
+- YouTube Audio Library
+- Freesound.org
+- Incompetech.com
+- Bensound.com
