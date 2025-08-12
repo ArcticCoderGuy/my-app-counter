@@ -173,3 +173,5 @@ contact me: www.foxinthecode.fi
 - `Counter.jsx`: Box + Typography + Stack + Button (värit: error, primary, secondary).
 
 **Control:** Versiohallinta (main-branch), README-dokumentointi, koodistandardi (PascalCase-komponentit, kansio `Components/`).
+
+Testattu RIO-versio omalla koneella
